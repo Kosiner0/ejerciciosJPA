@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Datos nuevo producto</title>
+		<link rel="stylesheet" type="text/css" href="hojaestilos.css">
+	</head>
+	
+	<body>
+		<h2>INTRODUCE LOS DATOS DEL PRODUCTO</h2>
+		
+		<form action="Registrar" method="post">
+			Nombre del producto: <input type="text" name="nombre" required>
+			Categoría del producto: <input type="text" name="categoria" required>
+			Precio del producto: <input type="text" name="precio" required>
+			Stock del producto: <input type="number" name="stock" required><br>
+			
+			<input type="submit" value="Enviar Datos" style="margin-top: 20px;">
+			
+		</form>
+		
+		<form action="GenerarProductos">
+        	<input type="submit" value="Autogenerar 3 Productos" style="margin-top: 20px;">
+	    </form>
+	    
+		<form action="menu.html">
+        	<input type="submit" value="Volver al Menú" style="margin-top: 20px;">
+	    </form>
+		
+	</body>
+	
+</html>

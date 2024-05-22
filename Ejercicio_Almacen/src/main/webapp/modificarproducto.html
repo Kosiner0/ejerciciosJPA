@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Modificar Producto</title>
+		<style>
+	        /* Estilo para colocar los formularios en línea */
+	        form {
+	            margin-right: 15px; /* Espacio entre los formularios */
+	        }
+	        
+    	</style>
+    	<link rel="stylesheet" type="text/css" href="hojaestilos.css">
+    	
+	</head>
+	
+	<body>
+		<h2>Elige el atributo que quieras modificar del producto</h2>
+		
+		<form action="Modificar" method="post">
+			Nombre del producto a modificar: <input type="text" name="prodModificar"><br>
+			
+			Introduce nuev@
+			<select name="atributo" style="margin-top: 20px;">
+				<option value="nombre">Nombre</option>
+				<option value="categoria">Categoría</option>
+				<option value="precio">Precio</option>
+				<option value="stock">Stock</option>
+				
+			</select>
+			<input type="text" name="nuevoValor"><br>
+			<input type="submit" value="Enviar" style="margin-top: 20px;">
+			
+		</form>
+		
+		<form action="menu.html">
+        	<input type="submit" value="Volver al Menú" style="margin-top: 20px;">
+	    </form>
+		
+	</body>
+	
+</html>

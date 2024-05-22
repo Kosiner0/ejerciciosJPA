@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Ejemplo javascript</title>
+	</head>
+	<body>
+		Estoy en html<br>
+		
+		<script >
+		
+			let numero = prompt("Escribe un número y te digo si es par o impar");
+			
+			if(numero == "undefined"){
+				alert("El numero no puede ser undefined.");
+				
+			}else if(numero == ""){
+				alert("El numero no puede ser null.");
+				
+			}else{
+				
+				document.write("El número " + numero + " es: ");
+				if(numero%2 == 0){
+					document.write("par.");
+				}else{
+					document.write("impar.");
+				}
+			}
+			
+		</script>
+		
+		<p>Otra vez en mundo HTML</p>
+		
+	</body>
+	
+</html>

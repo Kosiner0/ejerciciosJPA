@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+h1{
+	font-style: italic;
+	text-decoration-line: underline;   
+	text-decoration-color: #672E2E;
+	color: #B35151;
+}
+
+h3{
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: #900C3F ;
+	color: #A3B830 ;
+}
+
+.titulo{
+	font-family: Verdana;
+	font-style: italic;
+}
+
+.cursosActivos{
+	font-family: Verdana;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	color: #FF5733 ;
+}
+
+.botones{
+	color: #90899D;
+	background-color: #DAF7A6;
+	border-color: #90899D;
+}
+
+.inputTexto{
+	color: #B36A51;
+	font-family: arial;
+	font-size: 16px;
+}
+
