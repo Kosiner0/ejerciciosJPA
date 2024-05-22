@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>CrearSesionProducto</display-name>
+    <servlet-name>CrearSesionProducto</servlet-name>
+    <servlet-class>com.curso.CrearSesionProducto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CrearSesionProducto</servlet-name>
+    <url-pattern>/CrearSesionProducto</url-pattern>
+  </servlet-mapping>
+  <display-name>SesionesyObjetos</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>LeerSesionProducto</display-name>
+    <servlet-name>LeerSesionProducto</servlet-name>
+    <servlet-class>com.curso.LeerSesionProducto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LeerSesionProducto</servlet-name>
+    <url-pattern>/LeerSesionProducto</url-pattern>
+  </servlet-mapping>
+</web-app>

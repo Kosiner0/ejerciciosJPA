@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>MayusculaServlet</display-name>
+    <servlet-name>MayusculaServlet</servlet-name>
+    <servlet-class>com.curso.MayusculaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MayusculaServlet</servlet-name>
+    <url-pattern>/MayusculaServlet</url-pattern>
+  </servlet-mapping>
+  <display-name>TestMayusculasServlet</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ServletFinal</display-name>
+    <servlet-name>ServletFinal</servlet-name>
+    <servlet-class>com.curso.ServletFinal</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletFinal</servlet-name>
+    <url-pattern>/ServletFinal</url-pattern>
+  </servlet-mapping>
+</web-app>
